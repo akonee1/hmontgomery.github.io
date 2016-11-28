@@ -147,7 +147,7 @@ answers[29] = "B";
 answers[30] = "D";
 answers [31] = "B";
 answers [32] = "C";
-*/
+
 
 //multiple choices question here
 var qa = new Array();
