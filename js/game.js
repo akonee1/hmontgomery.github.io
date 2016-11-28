@@ -64,24 +64,37 @@ questions[1] = 'What is the correct balanced formula for Sodium Bromide?';
 questions[2] = 'What is the correct balanced formula for Sodium Iodide?';
 questions[3] = 'What is the correct balanced formula for Sodium Oxide?';
 questions[4] = 'What is the correct balanced formula for Potassium Oxide?';
-questions[5] = 'What is the correct balanced formula for Magnesium Oxide?';
-/**
 questions[6] = 'What is the correct balanced formula for Copper (I) chloride?';
-questions[7] = 'What is the correct balanced formula for Copper (II) chloride?';
-questions[8] = 'What is the correct balanced formula for Maganese (V) bromide?';
-questions[9] = 'What is the correct balanced formula for Ammonium Nitrate?';
-questions[10] = 'What is the correct balanced formula for Potassium Iodide?';
-questions[11] = 'What is the correct balanced formula for Magnesium Chloride?';
-questions[12] = 'What is the correct balanced formula for Aluminum Chloride?';
-questions[13] = 'What is the correct balanced formula for Sodium Sulfide?';
-questions[14] = 'What is the correct balanced formula for Calcium Sulfide?';
-questions[15] = 'What is the correct balanced formula for Sodium Nitride?';
-questions[16] = 'What is the correct balanced formula for Aluminum Nitride?';
-questions [17] = 'What is the correct balanced formula for Barium Chloride?';
-questions [18] = 'What is the correct balanced formula for Calcium Bromide?';
-questions [19] = 'What is the correct balanced formula for Potassium Hydride?';
-questions [20] = 'What is the correct balanced formula for Lithium Sulfide?';
-*/
+questions[5] = 'What is the correct balanced formula for Magnesium Oxide?';
+
+//Really hard problems
+questions[10] = 'What is the correct balanced formula for Sodium Peroxide?' ;
+questions[11] = 'What is the correct balanced formula for Potassium perchlorate?';
+questions[12] = 'What is the correct balanced formula for Sodium Hydrogen Phosphate';
+questions[13] = 'What is the correct balanced formula for Potassium hydrogen sulfite';
+
+//Covalent bond questions
+questions[14] = 'What is the correct balanced formula for Carbon monoxide?';
+questions[15] = 'What is the correct balanced formula for Nitrogen Dioxide?';
+questions[16] = 'What is the correct balanced formula for Sulfur Trioxide?';
+questions[17] = 'What is the correct balanced formula for Phosphorus Pentachloride?';
+questions[18] = 'What is the correct balanced formula for Dinitrogen Tetraoxide?';
+
+
+questions[19] = 'What is the correct balanced formula for Copper (II) chloride?';
+questions[20] = 'What is the correct balanced formula for Maganese (V) bromide?';
+questions[21] = 'What is the correct balanced formula for Ammonium Nitrate?';
+questions[22] = 'What is the correct balanced formula for Potassium Iodide?';
+questions[23] = 'What is the correct balanced formula for Magnesium Chloride?';
+questions[24] = 'What is the correct balanced formula for Aluminum Chloride?';
+questions[25] = 'What is the correct balanced formula for Sodium Sulfide?';
+questions[26] = 'What is the correct balanced formula for Calcium Sulfide?';
+questions[27] = 'What is the correct balanced formula for Sodium Nitride?';
+questions[28] = 'What is the correct balanced formula for Aluminum Nitride?';
+questions [29] = 'What is the correct balanced formula for Barium Chloride?';
+questions [30] = 'What is the correct balanced formula for Calcium Bromide?';
+questions [31] = 'What is the correct balanced formula for Potassium Hydride?';
+questions [32] = 'What is the correct balanced formula for Lithium Sulfide?';
 
 
 var currQuestion = 0;
@@ -104,22 +117,36 @@ answers[2] = "B";
 answers[3] = "A";
 answers[4] = "D";
 answers[5] = "C";
-/**
 answers[6] = "A";
-answers[7] = "D";
-answers[8] = "C";
-answers[9] = "B";
-answers[10] = "C";
-answers[11] = "A";
-answers[12] = "D";
+
+//Answers for really hard questions
+answers[10] = "A" ;
+answers[11] = "B";
+answers[12] = "C";
 answers[13] = "B";
-answers[14] = "C";
-answers[15] = "B";
+
+//Answers for covalent molecule questions
+answers[14] = "D";
+answers[15] = "C";
 answers[16] = "A";
-answers[17] = "B";
-answers[18] = "D";
-answers [19] = "B";
-answers [20] = "C";
+answers[17] = "D";
+answers[18] = "C";
+
+
+answers[19] = "D";
+answers[20] = "C";
+answers[21] = "B";
+answers[22] = "C";
+answers[23] = "A";
+answers[24] = "D";
+answers[25] = "B";
+answers[26] = "C";
+answers[27] = "B";
+answers[28] = "A";
+answers[29] = "B";
+answers[30] = "D";
+answers [31] = "B";
+answers [32] = "C";
 */
 
 //multiple choices question here
@@ -130,23 +157,36 @@ qa[2] = "a= SI b= NaI c= IS d= NaIO3";
 qa[3] = "a= Na2O b= NaO c= SO2 d= SO";
 qa[4] = "a= Ka2O b= P2O c= KaO d= K2O";
 qa[5] = "a= MnO b= MO2 c= MgO d= MgO2";
-/**
 qa[6] = "a= CuCl b= ClCu c= CoCl d= CoCl2";
-qa[7] = "a= CuCl2 b= ClCu c= CrCl2 d= KuCl";
-qa[8] = "a= MgI5 b= MnI5 c= MI5 d= MnBr";
-qa[9] = "a= NH4NO2 b= NH4NO3 c= NO3NH4 d= NH4NO";
-qa[10] = "a= IK b= PI c= KI d= IP";
-qa[11] = "a= MgCl2 b= MnCl2c= d= MgCl";
-qa[12] = "a= Al3Cl b= Cl3Al c= AlC3 d= AlCl3";
-qa[13] = "a= NaS b= Na2S c= KS d= RbS2";
-qa[14] = "a= KaS b= Ca2S c= CaS d= KaS";
-qa[15] = "a= NaN b= Na3N c= K3N d= NaNH3";
-qa[16] = "a= AlN b= AlNH3 c= NAl3 d= AN"
-qa[17] = "a= BaCl2 b= BCl2 c= BCl d= Cl2Ba";
-qa[18] = "a= CBr2 b= CaBr2 c= Br2Ca d= BrCa";
-qa[19] = "a= HK b= KH c= HCl d= HBr";
-qa[20] = "a= LiO b= LiS c= Li2S d= SLi";
-*/
+
+//Choices for really hard questions
+qa[10] = "a= Na2O2 b= NaO c= NaO2 d= NO2," ;
+qa[11] = "a= KClO3 b= KClO4 c= KClO2 d= KClO";
+qa[12] = "a= SI b= NaI c= NaHPO4 d= NaIO3";
+qa[13] = "a= Na2O b= KHSO3 c= SO2 d= SO";
+
+//Choices for covalent molecule questions
+qa[14] = "a= NO b= N2O4 c= NO2 d= NO3";
+qa[15] = "a= MnO b= MO2 c= MgO d= MgO2";
+qa[16] = "a= SO3 b= SO2 c= S2O3 d= S2O2";
+qa[17] = "a= P5Cl5 b= P2Cl3 c= PBr5 d= PCl5";
+qa[18] = "a= NO4 b= N4O2 c= N2O4 d= Ni2O4";
+
+qa[19] = "a= CuCl2 b= ClCu c= CrCl2 d= KuCl";
+qa[20] = "a= MgI5 b= MnI5 c= MI5 d= MnBr";
+qa[21] = "a= NH4NO2 b= NH4NO3 c= NO3NH4 d= NH4NO";
+qa[22] = "a= IK b= PI c= KI d= IP";
+qa[23] = "a= MgCl2 b= MnCl2c= d= MgCl";
+qa[24] = "a= Al3Cl b= Cl3Al c= AlC3 d= AlCl3";
+qa[25] = "a= NaS b= Na2S c= KS d= RbS2";
+qa[26] = "a= KaS b= Ca2S c= CaS d= KaS";
+qa[27] = "a= NaN b= Na3N c= K3N d= NaNH3";
+qa[28] = "a= AlN b= AlNH3 c= NAl3 d= AN"
+qa[29] = "a= BaCl2 b= BCl2 c= BCl d= Cl2Ba";
+qa[30] = "a= CBr2 b= CaBr2 c= Br2Ca d= BrCa";
+qa[31] = "a= HK b= KH c= HCl d= HBr";
+qa[32] = "a= LiO b= LiS c= Li2S d= SLi";
+
 
 //Declared and initialized sample questions
 var question1 = "Do you like Chemistry?";
@@ -332,6 +372,17 @@ function checkCount()
             playerChoice = "Time's up!"
         }
 
+}
+
+
+//This is the function that ends the game when all the questions are done
+function gameEnd(){
+
+    if(count <= 0)
+      {
+       window.stop();
+       alert("GAME OVER. To exit refresh browser and click Home to play again just refresh browser");
+      }
 }
 
 //Function to check the user's answer and changes to next question if the answer is correct
@@ -616,24 +667,6 @@ var writeInfo = function(mousePos) {
 
 }
 
-var endGame = function()
-{
-  //for(i=0; i<questions.length; i++) {
-
-    if(count === 0)
-    window.alert("Game over");
-//    currentArrowCoor = arrows[i].arrowTipCoords.x;
-  //}
-/**
-if(questions < 0)
-  {
-   window.alert("Game over");
-   alert("Game over");
-   playerChoice = "Game over";
-  }
-  */
-}
-
 //Every game engine needs an update function to display to the user the coordinates
 
 var update = function() {
@@ -702,7 +735,7 @@ if(arrows.length > 1){
 checkCount();
 collisionCheck();
 checkAnswer();
-
+gameEnd();
 
 
 //  music = new sound("g.mp3");
@@ -732,7 +765,6 @@ var main = function() {
   update();
   render();
   requestAnimationFrame(main);
-  endGame();
 }
 
 
