@@ -4,7 +4,7 @@
 		<title>Chemistry Game</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" type="Image/png" href="Images/titlelogo.png" />
+		<link rel="shortcut icon" type="image/png" href="images/titlelogo.png" />
 		<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
 		<link type="text/css" rel="stylesheet" href="style.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -49,8 +49,6 @@
 						<li><a href="#team">Team</a></li>
 						<li><a href="#contact">Contact</a></li>
 						<li><a href="#client">Client</a></li>
-						<li><a href="#professor">Professor</a></li>
-						
 					</ul>
 				</div>
 			</div>
@@ -94,7 +92,7 @@
                     <h2 class="heading-title-inverse">
                         Study!
                     </h2>
-                    <img class="img-responsive" src="Images/periodictable.png" alt="">
+                    <img class="img-responsive" src="images/periodictable.png" alt="">
                 </div>
             </div>
         </section>
@@ -110,7 +108,7 @@
                     <br>
                     <div class="row">
                         <div class="col-md-3">
-                            <img class="img-circle" src="Images/charmander.png">
+                            <img class="img-circle" src="images/charmander.png">
                             <div class="img-desc">
                                 <h3>Roland Abrahantes</h3>
                                 <br>
@@ -123,7 +121,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <img class="img-circle" src="Images/bulbasaur.png">
+                            <img class="img-circle" src="images/bulbasaur.png">
                             <div class="img-desc">
                                 <h3>Winston Kone</h3>
                                 <br>
@@ -136,7 +134,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <img class="img-circle" src="Images/squirtle.png">
+                            <img class="img-circle" src="images/squirtle.png">
                             <div class="img-desc">
                                 <h3>Xavier Lazo</h3>
                                 <br>
@@ -149,7 +147,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <img class="img-circle" src="Images/pikachu.png">
+                            <img class="img-circle" src="images/pikachu.png">
                             <div class="img-desc">
                                 <h3>Hailey Montgomery</h3>
                                 <br>
@@ -199,7 +197,7 @@
                         Our Client
                     </h2>
              
-                            <img class="img-responsive" src="Images/tgluick.JPG">
+                            <img class="img-responsive" src="images/tgluick.JPG">
         
                                 <h5 style="color:black;">Dr. Thomas Gluick</h5>
                                 <h5 style="color:black;">Assistant Professor of Chemistry</h5>
@@ -211,25 +209,7 @@
       </div>
       </div>
       
-      <!-- Professor -->
-        
-              <section id="professor">
-            <div class="container">
-                    <h2 class="heading-title">
-                        Our Client
-                    </h2>
-             
-                            <img class="img-responsive" src="Images/cgunay.JPG">
-        
-                                <h5 style="color:black;">Dr. Cengiz Gunay</h5>
-                                <h5 style="color:black;">Assistant Professor of Information Technology</h5>
-                              
-                                <small>
-                                    <a href="mailto:cgunay@ggc.edu" title="Email Dr. Cengiz Gunay">tgluick@ggc.edu</a>
-                               </small>
-                           </div>
-      </div>
-      </div>
+
       
       
         
