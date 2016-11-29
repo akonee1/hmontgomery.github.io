@@ -434,7 +434,7 @@ var drawScene = function() {
   var bubble4 = new Image();
   bubble4.src = "Images/new bubble.png";
   var character = new Image();
-  character.src = "Images/gun.png";
+  character.src = "Images/gunert.png";
 
   ctx.drawImage(background,0,0,1280,600);
   ctx.drawImage(bubble1, bubblex,200,80,80);
