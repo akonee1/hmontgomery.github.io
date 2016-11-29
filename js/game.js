@@ -424,7 +424,7 @@ function checkAnswer(){
 var drawScene = function() {
  
   var background = new Image();
-  background.src = "Images/game bg.jpg";
+  background.src = "Images/bg.jpg";
   var bubble1 = new Image();
   bubble1.src = "Images/new bubble.png";
   var bubble2 = new Image();
