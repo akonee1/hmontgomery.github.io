@@ -436,7 +436,7 @@ var drawScene = function() {
   var character = new Image();
   character.src = "Images/gunert.png";
 
-  ctx.drawImage(background,0,0,1280,600);
+  ctx.drawImage(background,0,0,w,h);
   ctx.drawImage(bubble1, bubblex,200,80,80);
   ctx.drawImage(bubble2, bubble2x,100,80,80);
   ctx.drawImage(bubble3, bubble3x,300,80,80);
