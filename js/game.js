@@ -424,7 +424,7 @@ function checkAnswer(){
 var drawScene = function() {
  
   var background = new Image();
-  background.src = "Images/game bg.jpg";
+  background.src = "Images/game bg.png";
   var bubble1 = new Image();
   bubble1.src = "Images/new bubble.png";
   var bubble2 = new Image();
@@ -433,8 +433,8 @@ var drawScene = function() {
   bubble3.src = "Images/new bubble.png";
   var bubble4 = new Image();
   bubble4.src = "Images/new bubble.png";
-  //var character = new Image();
- // character.src = "Images/gun.png";
+  var character = new Image();
+  character.src = "Images/gun.png";
 
   ctx.drawImage(background,0,0,1280,600);
   ctx.drawImage(bubble1, bubblex,200,80,80);
